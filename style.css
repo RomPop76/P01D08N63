@@ -16,6 +16,7 @@ nav {
 nav a {
     display: inline-block;
     width: 25%;
+    height: 40px;
     background-color: grey;
     font-size: 18px;
     padding: 10px;
@@ -24,10 +25,8 @@ nav a {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    /* line-height: 30px; */
+    line-height: 40px;
 }
-
-nav a:hover {}
 
 nav a.btn1 {
     background-color: burlywood;
@@ -58,4 +57,10 @@ main {
 footer {
     min-height: 100px;
     background-color: darkcyan;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+    color: black;
+    background-color: white;
 }
